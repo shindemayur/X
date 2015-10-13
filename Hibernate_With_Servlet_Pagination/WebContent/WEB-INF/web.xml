@@ -1,0 +1,15 @@
+<web-app>
+
+	<servlet>
+		<servlet-name>abcd</servlet-name>
+		<servlet-class>com.java4s.hservlet.pagination.Pagination</servlet-class>
+
+	</servlet>
+
+	<servlet-mapping>
+			<servlet-name>abcd</servlet-name>
+			<url-pattern>/ind</url-pattern>
+	</servlet-mapping>
+
+
+</web-app>
